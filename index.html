@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Example Comment</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+  	<div class="comment-card">
+  		<div class="card-content">
+  			<div class="comment-text-container">
+  				<div class="comment-content">
+  					<span class="comment-text">
+              I really like your range of products, particularly <span class="entity brand">Adidas</span>, and the website is easy to use. Delivery was fast, but quite expensive compared to other companies which deliver to <span class="entity country">France</span>.</span>
+              <span class="comment-timestamp">11:17 - 2 Jun 2016</span>
+  				</div>
+  			</div>
+  			
+         <table class="comment-properties table table-hover">
+            <thead></thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Order value</td>
+                <td>£50 - £100</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Order items</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Delivery type</td>
+                <td>Next-day</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>Age group</td>
+                <td>35 - 44</td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>Country</td>
+                <td>France</td>
+              </tr>
+              <tr>
+                <th scope="row">7</th>
+                <td>First order date</td>
+                <td>14 Oct 2015</td>
+              </tr>
+              <tr>
+                <th scope="row">8</th>
+                <td>Net spend</td>
+                <td>£250 - £500</td>
+              </tr>
+              <tr>
+                <th scope="row">9</th>
+                <td>Order count</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <th scope="row">10</th>
+                <td>NPS</td>
+                <td>8</td>
+              </tr>
+          </tbody>
+        </table>
+        
+  			<div class="labels">
+          <!-- Clicking these buttons would remove the label in the webapp, but that isn't implemented here -->
+            <button class="btn btn-primary margin-topbottom4" type="submit">Products > Range</button>
+            <button class="btn btn-primary margin-topbottom4" type="submit">Website</button>
+            <button class="btn btn-primary margin-topbottom4" type="submit">Delivery > Speed</button>
+            <button class="btn btn-primary margin-topbottom4" type="submit">Delivery > Price</button>
+          <!-- Entering a new label name here would add it to the list, but that isn't implemented -->
+            <form class="add-label">
+              <input type="text" class="add-label-input" placeholder="New label name"/>
+              <button class="btn btn-primary" type="submit">Add</button>
+            </form>
+          </div>
+      </div>
+    </div>
+</div>
+</body>
+</html>
